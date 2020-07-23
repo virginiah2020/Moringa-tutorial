@@ -19,4 +19,9 @@
             <a href="{{article_row.url}}">
             <img src="{{article_row.image}}" alt="{{article_row.title}}" class="img-responsive"
             styles="height:30px"></a>
-    
+        
+        <div class="caption">
+            <h4><a href="{{article_row.url}}" target="_blank">{{article_row.title |truncate(40)}}</a></h4>
+            <p>{{article.description | truncate(90)}}</p>
+            <a href="{{article_row.url}}" target="_blank"> Clicj</a>
+            </div>
