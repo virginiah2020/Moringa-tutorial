@@ -9,3 +9,14 @@
 
 
 {% for article_row in article %}
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+        <div class="thumbnail">
+            <a href="{{article_row.url}}">
+            <img src="{{article_row.image}}" alt="{{article_row.title}}" class="img-responsive"
+            styles="height:30px"></a>
+    
